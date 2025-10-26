@@ -1,0 +1,1 @@
+Melhorias de desempenho, localização de metadados

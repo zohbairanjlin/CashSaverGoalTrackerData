@@ -1,0 +1,18 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Update Metadata. No Update Build"
+  lane :upload_metadata do
+    deliver(
+	  app_identifier: "com.CashSaverGoalTracker",
+      username: "zohbairanjlin@icloud.com",
+      skip_binary_upload: true,
+      skip_metadata: false,
+      force: true,
+      metadata_path: "./fastlane/metadata",
+	  skip_screenshots: true,
+	  overwrite_screenshots: false,
+	  screenshots_path: "./fastlane/screenshots"
+    )
+  end
+end
