@@ -10,8 +10,8 @@ platform :ios do
       skip_metadata: false,
       force: true,
       metadata_path: "./fastlane/metadata",
-	  skip_screenshots: true,
-	  overwrite_screenshots: false,
+	  skip_screenshots: false,
+	  overwrite_screenshots: true,
 	  screenshots_path: "./fastlane/screenshots"
     )
   end

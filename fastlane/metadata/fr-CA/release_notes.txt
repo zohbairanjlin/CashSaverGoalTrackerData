@@ -1,1 +1,1 @@
-Améliorations des performances, localisation des métadonnées
+Amélioration des performances, corrections de bugs
